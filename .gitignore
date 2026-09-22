@@ -1,0 +1,8 @@
+.DS_Store
+.openai/
+.vercel/
+dist/
+output/
+tmp/
+__pycache__/
+*.pyc
