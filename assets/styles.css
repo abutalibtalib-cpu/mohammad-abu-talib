@@ -504,7 +504,7 @@ h1 span {
 
 .system-strip {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 0.85fr 1.45fr 0.85fr 0.85fr;
   gap: 1px;
   overflow: hidden;
   margin: 0.85rem 1rem 0;
@@ -514,19 +514,24 @@ h1 span {
 }
 
 .system-strip span {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 0.42rem;
   padding: 0.65rem 0.3rem;
   background: rgba(7, 16, 31, 0.9);
   color: var(--muted);
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
   font-size: 0.67rem;
   text-align: center;
+  white-space: nowrap;
 }
 
 .system-strip span::before {
   display: inline-block;
   width: 0.38rem;
   height: 0.38rem;
-  margin-right: 0.42rem;
   border-radius: 50%;
   background: var(--success);
   box-shadow: 0 0 8px rgba(98, 230, 171, 0.6);
