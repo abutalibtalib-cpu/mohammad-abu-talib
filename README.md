@@ -4,7 +4,7 @@ A one-page professional portfolio and cover-letter website for Mohammad Abu Tali
 
 ## Live site
 
-The production URL will be added here after the first Vercel deployment.
+[mohammadabutalib.com](https://mohammadabutalib.com/)
 
 ## Preview locally
 
